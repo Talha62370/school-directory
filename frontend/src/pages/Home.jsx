@@ -11,7 +11,7 @@ export default function Home() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/getschools")
+      .get("https://school-direcctory-1.onrender.com/api/getschools")
       .then((res) => {
         setSchools(res.data);
         setFilteredSchools(res.data);

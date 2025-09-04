@@ -39,7 +39,7 @@ export default function AddSchool() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/addschool",
+        "https://school-direcctory-1.onrender.com/api/addschool",
         data,
         {
           headers: { "Content-Type": "multipart/form-data" },
