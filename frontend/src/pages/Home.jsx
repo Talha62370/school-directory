@@ -23,7 +23,7 @@ export default function Home() {
       });
   }, []);
 
-  // Get unique cities for filter dropdown
+
   const cities = [...new Set(schools.map(school => school.city))].sort();
 
   // Handle search and filter
