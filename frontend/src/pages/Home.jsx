@@ -231,9 +231,7 @@ export default function Home() {
                         <p className="text-sm truncate">{school.email}</p>
                       </div>
                       
-                      <button className="w-full bg-indigo-50 hover:bg-indigo-100 text-indigo-600 font-medium py-2 px-4 rounded-lg transition-colors">
-                        View Details
-                      </button>
+                      
                     </div>
                   </div>
                 ))}
