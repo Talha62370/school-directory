@@ -158,7 +158,7 @@ export default function Home() {
                       onClick={clearFilters}
                       className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium py-2 px-4 rounded-lg transition-colors flex items-center"
                     >
-                      Clear Filters
+                      Clear Filter
                     </button>
                   )}
                 </div>
